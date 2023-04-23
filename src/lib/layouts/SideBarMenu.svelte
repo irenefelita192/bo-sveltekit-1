@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from 'svelte'
     import { closeSideMenu, pageMenus, togglePageMenu } from '$stores/menus'
-    import { page, session } from '$app/stores'
+    import { page } from '$app/stores'
     import { goto } from '$app/navigation'
     import SideBarMenu from '$src/lib/layouts/SideBarMenu.svelte'
     import { fade } from 'svelte/transition'

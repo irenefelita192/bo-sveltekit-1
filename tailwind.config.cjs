@@ -2,10 +2,10 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 const config = {
     mode: 'jit',
-    purge: ['src/app.html', 'src/**/*.svelte', 'src/**/*.ts'],
-	content: ['./src/**/*.{html,js,svelte,ts}'],
+    // purge: ['src/app.html', 'src/**/*.svelte', 'src/**/*.ts'],
+    content: ['./src/**/*.{html,js,svelte,ts}'],
 
-	theme: {
+    theme: {
         fontSize: {
             ...defaultTheme.fontSize,
             '10xl': '10rem',
@@ -198,7 +198,7 @@ const config = {
             },
         },
     },
-	plugins: []
-};
+    plugins: [],
+}
 
-module.exports = config;
+module.exports = config

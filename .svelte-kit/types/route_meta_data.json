@@ -1,0 +1,25 @@
+{
+	"/(default)": [
+		"src/routes/(default)/+layout.server.ts"
+	],
+	"/": [],
+	"/about": [
+		"src/routes/about/+page.ts"
+	],
+	"/accounts": [
+		"src/routes/accounts/+layout.server.ts"
+	],
+	"/accounts/login": [
+		"src/routes/accounts/login/+page.server.ts",
+		"src/routes/accounts/+layout.server.ts"
+	],
+	"/api/login": [
+		"src/routes/api/login/+server.ts"
+	],
+	"/(default)/customers": [
+		"src/routes/(default)/+layout.server.ts"
+	],
+	"/(default)/welcome": [
+		"src/routes/(default)/+layout.server.ts"
+	]
+}

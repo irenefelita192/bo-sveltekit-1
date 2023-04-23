@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-		<meta name="viewport" content="width=device-width" />
-		%sveltekit.head%
-	</head>
-	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">%sveltekit.body%</div>
-	</body>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="" />
+	<title>Backoffice - Vida</title>
+	<!-- <link rel="shortcut icon" type="image/x-icon" href="%svelte.assets%/favicons/favicon.ico"> -->
+	<link rel="icon" type="image/x-icon" href="/favicons/favicon-16x16.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.css">
+	%sveltekit.head%
+</head>
+
+<body>
+	<div>%sveltekit.body%</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@easepick/bundle@1.1.5/dist/index.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/easymde/dist/easymde.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/diff@5.1.0/dist/diff.min.js"></script>
+
 </html>
